@@ -1,32 +1,37 @@
 # wallpapers-yeutech
 
-Yeutech official wallpapers.
+[![Build Status](https://travis-ci.org/null/wallpapers-yeutech.svg?branch=master)](https://travis-ci.org/null/wallpapers-yeutech)] [![npm Version](https://img.shields.io/npm/v/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)] [![License](https://img.shields.io/npm/l/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)] [![NPM monthly downloads](https://img.shields.io/npm/dm/wallpapers-yeutech.svg?style=flat)](https://npmjs.org/package/wallpapers-yeutech)] [![NPM total downloads](https://img.shields.io/npm/dt/wallpapers-yeutech.svg?style=flat)](https://npmjs.org/package/wallpapers-yeutech)] [![npm Version](https://img.shields.io/node/v/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)] [![Module formats](https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)]
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=bugs)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=bugs) [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=code_smells)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=code_smells) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=coverage)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=coverage) [![Duplicate lines (%)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=duplicated_lines_density)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=duplicated_lines_density) [![Lines of code](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=ncloc)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=ncloc) [![Maintainability rating](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=sqale_rating)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=sqale_rating) [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=alert_status)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=alert_status) [![Reliability rating](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=reliability_rating)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=reliability_rating) [![Security rating](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=security_rating)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=security_rating) [![Technical debt](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=sqale_index)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=sqale_index) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=vulnerabilities)](https://sonarcloud.io/api/project_badges/measure?project=com.github.null.wallpapers-yeutech&metric=vulnerabilities)
 
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-
-**Master**
-
-[![build status](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/badges/master/build.svg)](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/commits/master)
-[![coverage report](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/badges/master/coverage.svg)](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/commits/master)
-
-**Dev**
-
-[![build status](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/badges/dev/build.svg)](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/commits/dev)
-[![coverage report](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/badges/dev/coverage.svg)](https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/commits/dev)
+Yeutech official wallpapers
 
 
 ## Table of Contents
 
   - [Documentation](#documentation)
-  - [License](#license)
+  - [Contributing](#contributing)
+  - [License MIT](#license-mit)
 
 ---
-  
+
 ## Documentation
 
-  - View wallpapers-yeutech [HTML documentation](https://yeutech.yeutech.com/wallpapers-yeutech) *(require access)*
+Read [wallpapers-yeutech documentation](https://yeutech-lab.github.io/wallpapers-yeutech).
 
-## License
 
-Copyright (c) 2018 Yeutech Company Limited. Made with love in Vietnam with [rollup-umd](https://module.kopaxgroup.com/dev-tools/rollup-umd/tags/v1.1.20) 1.1.20
+## Contributing
+
+If you want to contribute to wallpapers-yeutech please see our [contributing and community guidelines](https://github.com/yeutech-lab/wallpapers-yeutech/blob/master/CONTRIBUTING.md), they\'ll help you get set up locally and explain the whole process.
+
+Please also note that all repositories under the null organization follow our [Code of Conduct](https://github.com/yeutech-lab/wallpapers-yeutech/blob/master/CODE_OF_CONDUCT.md), make sure to review and follow it.
+
+## License MIT
+
+Copyright 2018 Yeutech Company Limited
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

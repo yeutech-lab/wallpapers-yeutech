@@ -1,8 +1,8 @@
 {
-  "name": "@yeutech/wallpapers-yeutech",
+  "name": "wallpapers-yeutech",
   "version": "1.0.1",
   "description": "Yeutech official wallpapers",
-  "homepage": "https://yeutech.yeutech.com/wallpapers-yeutech",
+  "homepage": "https://yeutech-lab.github.io/wallpapers-yeutech",
   "author": "Dimitri Kopriwa <dimitri.kopriwa@yeutech.vn> (https://github.com/kopax)",
   "scripts": {
     "build": "echo No build",
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://module.kopaxgroup.com/yeutech/wallpapers-yeutech.git"
+    "url": "https://github.com/yeutech-lab/wallpapers-yeutech.git"
   },
   "bugs": {
-    "url": "https://module.kopaxgroup.com/yeutech/wallpapers-yeutech/issues"
+    "url": "https://github.com/yeutech-lab/wallpapers-yeutech/issues"
   },
   "keywords": [
     "static",
@@ -33,18 +33,11 @@
   ],
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.0",
-    "@semantic-release/exec": "^2.3.0",
-    "@semantic-release/git": "^7.0.1",
-    "@semantic-release/gitlab": "^2.1.4",
+    "@semantic-release/git": "^7.0.4",
+    "@semantic-release/github": "^5.0.5",
     "@semantic-release/npm": "^4.0.2",
     "@svgr/webpack": "^2.1.1",
     "@yeutech-lab/rollup-umd-documentation": "^2.3.19",
-    "@yeutech/rollup-umd-ci-build": "^1.0.5",
-    "@yeutech/rollup-umd-ci-deploy": "^1.0.7",
-    "@yeutech/rollup-umd-ci-release": "^1.0.11",
-    "@yeutech/rollup-umd-ci-release-transitive": "^1.1.10",
-    "@yeutech/rollup-umd-ci-test": "^1.0.6",
-    "@yeutech/rollup-umd-scripts": "^0.16.8",
     "cz-conventional-changelog": "^2.1.0",
     "pre-commit": "^1.2.2",
     "react-styleguidist": "7.1.1",
@@ -55,32 +48,20 @@
   "dependencies": {},
   "peerDependencies": {},
   "publishConfig": {
-    "registry": "https://npm.kopaxgroup.com",
-    "tag": "latest"
+    "registry": "https://registry.npmjs.org",
+    "tag": "latest",
+    "access": "public"
   },
   "release": {
     "branch": "master",
-    "success": false,
-    "fail": false,
     "npmPublish": true,
     "verifyConditions": [
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "npx @yeutech/rollup-umd-ci-release-transitive verify"
-      },
       "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/git",
-      {
-        "path": "@semantic-release/gitlab",
-        "gitlabUrl": "https://module.kopaxgroup.com"
-      }
+      "@semantic-release/github"
     ],
     "prepare": [
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "npx @yeutech/rollup-umd-ci-release-transitive prepare"
-      },
       "@semantic-release/changelog",
       "@semantic-release/npm",
       {
@@ -97,12 +78,49 @@
     "publish": [
       "@semantic-release/npm",
       {
-        "path": "@semantic-release/gitlab",
-        "gitlabUrl": "https://module.kopaxgroup.com"
-      },
-      {
-        "path": "@semantic-release/exec",
-        "cmd": "npx @yeutech/rollup-umd-ci-release-transitive publish ${nextRelease.version}"
+        "path": "@semantic-release/github",
+        "assets": [
+          {
+            "path": "package.json"
+          },
+          {
+            "path": "LICENSE.md"
+          },
+          {
+            "path": "CHANGELOG.md"
+          },
+          {
+            "path": "README.md"
+          },
+          {
+            "path": "dist/*.esm.js",
+            "label": "ES module"
+          },
+          {
+            "path": "dist/*.esm.js.map",
+            "label": "ES module source map"
+          },
+          {
+            "path": "dist/*.min.js",
+            "label": "UMD compressed"
+          },
+          {
+            "path": "dist/*.min.js.map",
+            "label": "UMD compressed source map"
+          },
+          {
+            "path": "dist/*.cjs.min.js",
+            "label": "CJS compressed"
+          },
+          {
+            "path": "dist/*.cjs.min.js.map",
+            "label": "CJS compressed source map"
+          },
+          {
+            "path": "lib/*.js",
+            "label": "CJS folder"
+          }
+        ]
       }
     ]
   },
@@ -112,21 +130,5 @@
     }
   },
   "declinationId": "static",
-  "contributors": [],
-  "transitive": {
-    "name": "wallpapers-yeutech",
-    "scopedName": "wallpapers-yeutech",
-    "homepage": "https://yeutech-lab.github.io/wallpapers-yeutech",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yeutech-lab/wallpapers-yeutech.git"
-    },
-    "bugs": {
-      "url": "https://github.com/yeutech-lab/wallpapers-yeutech/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "contributors": []
 }
