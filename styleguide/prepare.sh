@@ -12,6 +12,3 @@ npx rollup-umd-scripts doc variable \
   CI_PROJECT_NAMESPACE=${CI_PROJECT_NAMESPACE} \
   CI_PROJECT_NAME=${CI_PROJECT_NAME} \
   IMG_SHIELD_PUBLISHING=$(npx rollup-umd-scripts publish status --badge)
-
-npx rollup-umd-scripts doc add-section -n 'Code of conduct' -a 'FAQ' -c 'CODE_OF_CONDUCT.md' --force
-npx rollup-umd-scripts doc add-section -n 'Changelog' -a 'Code of conduct' -c 'CHANGELOG.md' --force
