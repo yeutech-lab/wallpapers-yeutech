@@ -29,10 +29,6 @@
       "components": "static/**/*.svg"
     },
     {
-      "name": "FAQ",
-      "content": "docs/faq.md"
-    },
-    {
       "name": "Contribute",
       "content": "docs/contribute.md",
       "sections": [

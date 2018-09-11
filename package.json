@@ -26,7 +26,7 @@
     "wallpapers",
     "yeutech"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "pre-commit": [
     "build:readme"
   ],
@@ -54,14 +54,14 @@
   "dependencies": {},
   "peerDependencies": {},
   "publishConfig": {
-    "tag": "latest",
-    "registry": "https://npm.kopaxgroup.com"
+    "registry": "https://npm.kopaxgroup.com",
+    "tag": "latest"
   },
   "release": {
     "branch": "master",
     "success": false,
     "fail": false,
-    "npmPublish": false,
+    "npmPublish": true,
     "verifyConditions": [
       {
         "path": "@semantic-release/exec",
@@ -111,6 +111,5 @@
     }
   },
   "declinationId": "static",
-  "contributors": [],
-  "private": true
+  "contributors": []
 }
