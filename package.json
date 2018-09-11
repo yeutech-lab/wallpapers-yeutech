@@ -111,5 +111,21 @@
     }
   },
   "declinationId": "static",
-  "contributors": []
+  "contributors": [],
+  "transitive": {
+    "name": "wallpapers-yeutech",
+    "scopedName": "wallpapers-yeutech",
+    "homepage": "https://yeutech-lab.github.io/wallpapers-yeutech",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yeutech-lab/wallpapers-yeutech.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yeutech-lab/wallpapers-yeutech/issues"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org"
+    }
+  }
 }
