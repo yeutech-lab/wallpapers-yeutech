@@ -1,6 +1,6 @@
 {
   "name": "@yeutech/wallpapers-yeutech",
-  "version": "0.0.0-development",
+  "version": "1.0.1",
   "description": "Yeutech official wallpapers",
   "homepage": "https://yeutech.yeutech.com/wallpapers-yeutech",
   "author": "Dimitri Kopriwa <dimitri.kopriwa@yeutech.vn> (https://github.com/kopax)",
@@ -11,7 +11,8 @@
     "prepublish": "npm run build",
     "lint-staged": "lint-staged",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/wallpapers-yeutech is deprecated, use wallpapers-yeutech instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
