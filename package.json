@@ -5,14 +5,13 @@
   "homepage": "https://yeutech-lab.github.io/wallpapers-yeutech",
   "author": "Dimitri Kopriwa <dimitri.kopriwa@yeutech.vn> (https://github.com/kopax)",
   "scripts": {
-    "build": "echo No build",
+    "build": "true",
     "build:readme": "toctoc README.md -w",
-    "test": "echo No test",
+    "test": "true",
     "prepublish": "npm run build",
     "lint-staged": "lint-staged",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build",
-    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/wallpapers-yeutech is deprecated, use wallpapers-yeutech instead.')\" || exit 0"
+    "styleguide:build": "styleguidist build"
   },
   "repository": {
     "type": "git",
