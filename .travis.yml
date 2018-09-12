@@ -29,7 +29,9 @@ jobs:
         - 'lts/*'
       script:
         - git fetch --tags
-        - git checkout refs/tags/$(git describe --tags `git rev-list --tags --max-count=1`)
+        - version=$(git describe --tags `git rev-list --tags --max-count=1`)
+        - echo "Documentation version $version"
+        - git checkout refs/tags/${version}
         - npm install
         - chmod +x styleguide/prepare.sh
         - styleguide/prepare.sh
