@@ -1,18 +1,17 @@
 {
   "name": "wallpapers-yeutech",
-  "version": "1.0.1",
+  "version": "0.0.0-development",
   "description": "Yeutech official wallpapers",
   "homepage": "https://yeutech-lab.github.io/wallpapers-yeutech",
   "author": "Dimitri Kopriwa <dimitri.kopriwa@yeutech.vn> (https://github.com/kopax)",
   "scripts": {
-    "build": "echo No build",
+    "build": "true",
     "build:readme": "toctoc README.md -w",
-    "test": "echo No test",
+    "test": "true",
     "prepublish": "npm run build",
     "lint-staged": "lint-staged",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build",
-    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/wallpapers-yeutech is deprecated, use wallpapers-yeutech instead.')\" || exit 0"
+    "styleguide:build": "styleguidist build"
   },
   "repository": {
     "type": "git",
@@ -37,7 +36,7 @@
     "@semantic-release/github": "^5.0.5",
     "@semantic-release/npm": "^4.0.2",
     "@svgr/webpack": "^2.1.1",
-    "@yeutech-lab/rollup-umd-documentation": "^2.3.19",
+    "@yeutech-lab/rollup-umd-documentation": "^2.3.20",
     "cz-conventional-changelog": "^2.1.0",
     "pre-commit": "^1.2.2",
     "react-styleguidist": "7.1.1",
