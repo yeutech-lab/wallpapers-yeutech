@@ -38,7 +38,7 @@ jobs:
       script:
         - git fetch --tags
         - version=$(git describe --tags `git rev-list --tags --max-count=1`)
-        - echo "Documentation version $version"
+        - echo "Documentation version ${version}"
         - git checkout refs/tags/${version}
         - chmod +x ./styleguide/prepare.sh
         - ./styleguide/prepare.sh
