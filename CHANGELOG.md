@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.2...v1.0.3) (2018-09-13)
+
+
+### Bug Fixes
+
+* **svg:** fix list of svg components ([862546f](https://github.com/yeutech-lab/wallpapers-yeutech/commit/862546f))
+
 ## [1.0.2](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.1...v1.0.2) (2018-09-13)
 
 
