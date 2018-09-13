@@ -32,9 +32,7 @@ jobs:
         - version=$(git describe --tags `git rev-list --tags --max-count=1`)
         - echo "Documentation version $version"
         - git checkout refs/tags/${version}
-        - npm install --only-prod
-        - chmod +x styleguide/prepare.sh
-        - styleguide/prepare.sh
+        - ./styleguide/prepare.sh
         - npm run styleguide:build
       deploy:
         - provider: pages
