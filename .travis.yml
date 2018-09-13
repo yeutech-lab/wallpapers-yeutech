@@ -33,7 +33,6 @@ jobs:
         - echo "Documentation version $version"
         - git checkout refs/tags/${version}
         - npm install --only-prod
-        - npm install react-styleguidist@7.1.1
         - chmod +x styleguide/prepare.sh
         - styleguide/prepare.sh
         - npm run styleguide:build
