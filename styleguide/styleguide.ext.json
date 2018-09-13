@@ -26,7 +26,7 @@
     },
     {
       "name": "Svg components",
-      "components": "static/**/*.svg"
+      "components": "static/wallpaper.svg"
     },
     {
       "name": "Contribute",
