@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/null/wallpapers-yeutech.svg?branch=master)](https://travis-ci.org/null/wallpapers-yeutech)
+[![Build Status](https://travis-ci.org/yeutech-lab/wallpapers-yeutech.svg?branch=master)](https://travis-ci.org/yeutech-lab/wallpapers-yeutech)
 [![npm Version](https://img.shields.io/npm/v/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)
 [![License](https://img.shields.io/npm/l/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)
 [![Node Version](https://img.shields.io/node/v/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)
