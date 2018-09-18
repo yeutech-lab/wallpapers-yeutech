@@ -1,6 +1,6 @@
 # wallpapers-yeutech
 
-[![Build Status](https://travis-ci.org/null/wallpapers-yeutech.svg?branch=master)](https://travis-ci.org/null/wallpapers-yeutech)
+[![Build Status](https://travis-ci.org/yeutech-lab/wallpapers-yeutech.svg?branch=master)](https://travis-ci.org/yeutech-lab/wallpapers-yeutech)
 [![npm Version](https://img.shields.io/npm/v/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)
 [![License](https://img.shields.io/npm/l/wallpapers-yeutech.svg?style=flat)](https://www.npmjs.com/package/wallpapers-yeutech)
 [![NPM monthly downloads](https://img.shields.io/npm/dm/wallpapers-yeutech.svg?style=flat)](https://npmjs.org/package/wallpapers-yeutech)
@@ -28,7 +28,7 @@ Read [wallpapers-yeutech documentation](https://yeutech-lab.github.io/wallpapers
 
 If you want to contribute to wallpapers-yeutech please see our [contributing and community guidelines](https://github.com/yeutech-lab/wallpapers-yeutech/blob/master/CONTRIBUTING.md), they\'ll help you get set up locally and explain the whole process.
 
-Please also note that all repositories under the null organization follow our [Code of Conduct](https://github.com/yeutech-lab/wallpapers-yeutech/blob/master/CODE_OF_CONDUCT.md), make sure to review and follow it.
+Please also note that all repositories under the yeutech-lab organization follow our [Code of Conduct](https://github.com/yeutech-lab/wallpapers-yeutech/blob/master/CODE_OF_CONDUCT.md), make sure to review and follow it.
 
 ## License MIT
 
