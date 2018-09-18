@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.4...v1.0.5) (2018-09-18)
+
+
+### Bug Fixes
+
+* **org:** fix organization in README.md and introduction.md ([ba838f1](https://github.com/yeutech-lab/wallpapers-yeutech/commit/ba838f1))
+
 ## [1.0.4](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.3...v1.0.4) (2018-09-18)
 
 
