@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.3...v1.0.4) (2018-09-18)
+
+
+### Bug Fixes
+
+* **doc:** fixing badge on introduction.md ([66868fd](https://github.com/yeutech-lab/wallpapers-yeutech/commit/66868fd))
+
 ## [1.0.3](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.2...v1.0.3) (2018-09-13)
 
 
