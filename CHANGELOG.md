@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.5...v1.1.0) (2018-12-16)
+
+
+### Features
+
+* **greenkeepers:** added greekeeper ([c165519](https://github.com/yeutech-lab/wallpapers-yeutech/commit/c165519))
+
 ## [1.0.5](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.4...v1.0.5) (2018-09-18)
 
 
