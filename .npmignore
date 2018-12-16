@@ -17,7 +17,10 @@ tmp.json
 /public
 /bundle-stats.html
 /CODE_OF_CONDUCT.md
-sonar-project.properties
+/CONTRIBUTING.md
+/README.md
+/CHANGELOG.md
+/sonar-project.properties
 /styleguide.config.js
 /styleguide
 /reports
