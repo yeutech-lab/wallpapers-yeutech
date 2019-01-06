@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="yeutech-wallpaper" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 3480 2160" enable-background="new 0 0 3480 2160" xml:space="preserve">
 <g>
 	<g>
@@ -27,7 +27,7 @@
 			<stop  offset="0.4566" style="stop-color:#960E5E"/>
 			<stop  offset="1" style="stop-color:#B31255"/>
 		</linearGradient>
-		<polygon fill="url(#SVGID_3_)" points="0,2160 2233.696,2160 1603.195,1078.868 0,2005.715 		"/>
+		<polygon fill="url(#SVGID_3_)" points="0,2160 2233.696,2160 1600,1078.868 0,2005.715"/>
 	</g>
 </g>
 <g>
