@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.1.0...v1.1.1) (2019-01-06)
+
+
+### Bug Fixes
+
+* **svg:** fixed center of svg wallpaper and removed useless svg copy ([f8bd45e](https://github.com/yeutech-lab/wallpapers-yeutech/commit/f8bd45e))
+
 # [1.1.0](https://github.com/yeutech-lab/wallpapers-yeutech/compare/v1.0.5...v1.1.0) (2018-12-16)
 
 
