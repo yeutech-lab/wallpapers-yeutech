@@ -4,3 +4,9 @@ If you wish to import SVGs as React component **in your application** or in your
 
 If you wish to import SVGs as React component **in a module**, you should use a different plugin: [babel-plugin-inline-react-svg](https://github.com/airbnb/babel-plugin-inline-react-svg)
 
+
+### Optimization
+
+We use svgo for optimizing images for specific usage.
+
+`.svgo.yml` files are configuration file for svgo.
