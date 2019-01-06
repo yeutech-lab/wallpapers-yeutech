@@ -15,6 +15,9 @@ React.createElement("defs", null, React.createElement("font", {
   underlineThickness: 0,
   underlinePosition: 0,
   unicodeRange: "U+0020-F500"
+}), React.createElement("missingGlyph", {
+  horizAdvX: 896,
+  d: "M224 112h448v1312H224V112zM112 0v1536h672V0H112z"
 }), React.createElement("glyph", {
   glyphName: ".notdef",
   horizAdvX: 896,
